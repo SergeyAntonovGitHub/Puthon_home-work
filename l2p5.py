@@ -4,5 +4,5 @@ i = 0
 for number in spisok:
     if enter <= number:
         i += 1
-spisok.insert(i, int(enter))
+spisok.insert(i, float(enter))
 print(spisok)
