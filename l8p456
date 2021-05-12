@@ -12,11 +12,11 @@ class StoreMashines:
     def __str__(self):
         return f'{self.name} цена {self.price} количество {self.quantity}'
 
-    @classmethod
-    @staticmethod
+    # @classmethod
+    # @staticmethod
     def reception(self):
-        print(f'Для выхода - Q, продолжение - Enter')
-        while True:
+        # print(f'Для выхода - Q, продолжение - Enter')
+        # while True:
         try:
             unit = input(f'Введите наименование ')
             unit_p = int(input(f'Введите цену за ед '))
